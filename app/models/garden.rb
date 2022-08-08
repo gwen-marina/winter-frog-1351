@@ -5,5 +5,9 @@ class Garden < ApplicationRecord
 
   def harvest_under_hundred_days
     plants.where('days_to_harvest < 100').uniq
-  end
+  end 
 end
+
+
+
+
